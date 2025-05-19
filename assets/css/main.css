@@ -66,62 +66,6 @@ body {
   font-family: var(--default-font);
 }
 
-/* Make sure the logo is responsive */
-.logo {
-  max-height: 45px;  /* Max height to avoid overly large logos */
-  width: auto;       /* Keep aspect ratio */
-}
-
-/* Navbar styling */
-.navmenu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; /* Center items vertically */
-}
-
-/* Fix the navbar height on mobile */
-@media (max-width: 768px) {
-  .branding {
-    padding: 10px 0; /* Reduce padding on smaller screens */
-  }
-
-  .logo {
-    max-height: 95px; /* Default size for logo on mobile */
-  }
-
-  /* Set a fixed height for the navbar on mobile screens */
-  .container {
-    height: 60px; /* Set a fixed height for the container */
-    display: flex;
-    justify-content: space-between;
-    align-items: center; /* Vertically center the content */
-  }
-
-  .navmenu ul {
-    display: flex;
-    flex-direction: column; /* Stack items vertically on mobile */
-    padding-left: 0;
-  }
-
-  .navmenu li {
-    margin: 5px 0; /* Reduce spacing between nav items */
-  }
-
-  .btn-book-a-table {
-    display: block;
-    width: 100%; /* Full width button on mobile */
-    margin-top: 10px;
-  }
-}
-
-/* Optional: Adjust logo size for extra small screens */
-@media (max-width: 480px) {
-  .logo {
-    max-height: 40px; /* Even smaller logo on very small screens */
-  }
-}
-
-
 a {
   color: var(--accent-color);
   text-decoration: none;
