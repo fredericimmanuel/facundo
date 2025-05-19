@@ -74,7 +74,7 @@ body {
 @media (max-width: 768px) {
 
   .logo {
-    max-height: 50px; /* Smaller logo on mobile */
+    max-height: 80px; /* Smaller logo on mobile */
   }
 }
 
