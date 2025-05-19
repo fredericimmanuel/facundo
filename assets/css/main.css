@@ -66,6 +66,18 @@ body {
   font-family: var(--default-font);
 }
 
+.logo {
+  max-height: 45px;  /* Max height to avoid overly large logos */
+  width: auto;       /* Keep aspect ratio */
+}
+
+@media (max-width: 768px) {
+
+  .logo {
+    max-height: 20px; /* Smaller logo on mobile */
+  }
+}
+
 a {
   color: var(--accent-color);
   text-decoration: none;
