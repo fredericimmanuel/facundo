@@ -26,6 +26,14 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+  @media (max-width: 768px) {
+    #logo {
+      height: 70px !important; /* or whatever height you want on mobile */
+    }
+  }
+</style>
+
 </head>
 
 <body class="index-page">
@@ -36,8 +44,7 @@
 
       <div class="container position-relative d-flex align-items-center justify-content-between" style="height: 100%;">
     
-        <img src="assets/CF_logo.png" alt="Logo" class="logo"
-             style="max-height: 50px; height: 100%; width: auto; display: block; object-fit: contain;">
+        <img src="assets/CF_logo.png" alt="Logo" id="logo" style="height: 60px; width: auto;">
     
         <nav id="navmenu" class="navmenu">
           <ul>
