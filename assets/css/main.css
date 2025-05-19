@@ -86,7 +86,7 @@ body {
   }
 
   .logo {
-    max-height: 45px; /* Default size for logo on mobile */
+    max-height: 95px; /* Default size for logo on mobile */
   }
 
   /* Set a fixed height for the navbar on mobile screens */
