@@ -34,17 +34,24 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+  <style>
+    @media (max-width: 768px) {
+      #logo {
+        height: 120px !important; /* or whatever height you want on mobile */
+      }
+    }
+  </style>
+  
 </head>
 
 <body class="index-page">
 
   <header id="header" class="header fixed-top">
 
-    <div class="branding d-flex align-items-cente">
+    <div class="branding d-flex align-items-cente" style="height: 70px; overflow: hidden;">
 
       <div class="container position-relative d-flex align-items-center justify-content-between">
-        <img src="assets/CF_logo1.png" alt="" style="width: 150px; height: auto; display: block;">
-
+        <img src="assets/CF_logo1.png" alt="Logo" id="logo" style="height: 130px; width: auto;">
         <nav id="navmenu" class="navmenu">
           <ul>
             <li><a href="#hero" class="active">Home<br></a></li>
@@ -58,7 +65,7 @@
               <ul>
                 <li><a href="index.html">Logo 1</a></li>
                 <li><a href="index1.html">Logo 2</a></li>
-                <li><a href="index2.html">Dropdown 3</a></li>
+                <li><a href="index.html">Dropdown 3</a></li>
                 <li><a href="index.html">Dropdown 4</a></li>
               </ul>
             </li>
